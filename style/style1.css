@@ -5,9 +5,9 @@
     padding: 0;
 }
 
-body, html{
+body{
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 /* navbar */
 nav {
@@ -162,7 +162,7 @@ p {
         transform: translateX(0);
     }
     body.slide {
-        overflow-y: hidden;
+        overflow-y: hidden !important;
     }
     p {
         margin-left: 0;
