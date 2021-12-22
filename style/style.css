@@ -242,7 +242,7 @@ div ul li {
         transform: translateX(100%);
         transition: all 1s;
         overflow-y: hidden;
-        margin-top: 35px;
+        margin-top: 40px;
     }
     h1 {
         font-size: 20px;
