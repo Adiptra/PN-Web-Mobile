@@ -194,7 +194,7 @@ button {
         z-index: -1;
         background-color: black;
         width: 70%;
-        transform: translateX(100%);
+        transform: translateY(-100%);
         transition: all 1s;
         overflow-y: hidden;
     }
