@@ -153,16 +153,13 @@ p {
         width: 70%;
         transform: translateX(100%);
         transition: all 1s;
-        margin-top: 40px;
     }
     h1 {
         font-size: 20px;
     }
     nav ul.slide {
-        transform: translateX(0);
-    }
-    body.slide {
-        overflow-y: hidden !important;
+        transform: translateY(0);
+        position: fixed;
     }
     p {
         margin-left: 0;

@@ -197,13 +197,10 @@ button {
         transform: translateX(100%);
         transition: all 1s;
         overflow-y: hidden;
-        margin-top: 40px;
     }
     nav ul.slide {
-        transform: translateX(0);
-    }
-    body.slide {
-        overflow-y: hidden !important;
+        transform: translateY(0);
+        position: fixed;
     }
     h1 {
         font-size: 30px;
