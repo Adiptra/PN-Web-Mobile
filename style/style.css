@@ -43,11 +43,11 @@ nav ul li a:hover {
 
 /* Marquee */
 marquee {
-    background-color: rgba(40,102,153,0.75);
+    background-color: #00c2cb;
 
 }
 h3 {
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 5px;
     font-size: 30px;
 }
@@ -78,7 +78,7 @@ div ul li {
     list-style: none;
 }
 .ig a{
-    background-color: rgb(0, 139, 19);
+    background-color: #8607fe;
     padding: 20px 30vh;
     font-size: 20px;
     border-radius: 20px;
@@ -87,13 +87,12 @@ div ul li {
     margin: 20px;
     display: block;
 }
-
 .ig a:hover {
     color: black;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 .wa a{
-    background-color: rgb(0, 139, 19);
+    background-color: #8607fe;
     padding: 20px 30vh;
     font-size: 20px;
     border-radius: 20px;
@@ -101,14 +100,17 @@ div ul li {
     color: white;
     margin: 20px;
     display: block;
+}
+.wa i {
+    color: rgb(1, 196, 27);
 }
 
 .wa a:hover {
     color: black;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 .yt a{
-    background-color: rgb(0, 139, 19);
+    background-color: #8607fe;
     padding: 20px 30vh;
     font-size: 20px;
     border-radius: 20px;
@@ -117,10 +119,12 @@ div ul li {
     margin: 20px;
     display: block;
 }
-
+.yt i {
+    color: red;
+}
 .yt a:hover {
     color: black;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 /* hamburger menu */
@@ -183,7 +187,7 @@ div ul li {
         z-index: -2;
     }
     .ig a{
-        background-color: rgb(0, 139, 19);
+        background-color: #8607fe;
         padding: 20px 10vh;
         font-size: 20px;
         border-radius: 20px;
@@ -195,10 +199,11 @@ div ul li {
     
     .ig a:hover {
         color: black;
-        background-color: aqua;
+        background-color: rgb(250, 250, 250);
     }
+
     .wa a{
-        background-color: rgb(0, 139, 19);
+        background-color: #8607fe;
         padding: 20px 10vh;
         font-size: 20px;
         border-radius: 20px;
@@ -207,13 +212,15 @@ div ul li {
         margin: 20px;
         display: block;
     }
-    
+    .wa i {
+        color: rgb(1, 196, 27);
+    }
     .wa a:hover {
         color: black;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
     }
     .yt a{
-        background-color: rgb(0, 139, 19);
+        background-color: #8607fe;
         padding: 20px 10vh;
         font-size: 20px;
         border-radius: 20px;
@@ -222,10 +229,12 @@ div ul li {
         margin: 20px;
         display: block;
     }
-    
+    .yt i {
+        color: red;
+    }
     .yt a:hover {
         color: black;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
     }
     .container {
         max-width: 90%;
@@ -254,7 +263,7 @@ div ul li {
         transition: all 1s;
     }
     h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
     nav ul.slide {
         transform: translateY(0);
@@ -264,7 +273,7 @@ div ul li {
         margin-top: 70px;
     }
     .ig a{
-        background-color: rgb(0, 139, 19);
+        background-color: #8607fe;
         padding: 20px 10vh;
         font-size: 20px;
         border-radius: 20px;
@@ -273,13 +282,12 @@ div ul li {
         margin: 20px;
         display: block;
     }
-    
     .ig a:hover {
         color: black;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
     }
     .wa a{
-        background-color: rgb(0, 139, 19);
+        background-color: #8607fe;
         padding: 20px 5px;
         font-size: 20px;
         border-radius: 20px;
@@ -288,13 +296,15 @@ div ul li {
         margin: 20px;
         display: block;
     }
-    
+    .wa i {
+        color: rgb(1, 196, 27);
+    }
     .wa a:hover {
         color: black;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
     }
     .yt a{
-        background-color: rgb(0, 139, 19);
+        background-color: #8607fe;
         padding: 20px 10vh;
         font-size: 20px;
         border-radius: 20px;
@@ -303,10 +313,12 @@ div ul li {
         margin: 20px;
         display: block;
     }
-    
+    .yt i {
+        color: red;
+    }
     .yt a:hover {
         color: black;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
     }
     marquee {
         position: absolute;
